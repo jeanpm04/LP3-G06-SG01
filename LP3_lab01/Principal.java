@@ -18,7 +18,9 @@ public class Principal {
         
         if (fl == true)
             System.out.println("¡Adivinaste!");
-        else
-            System.out.println("¡Ups, perdiste...");
+        else {
+        	System.out.println("¡Ups, perdiste...");
+        	System.out.println("El número secreto era: 1234");
+        }
     }
 }
