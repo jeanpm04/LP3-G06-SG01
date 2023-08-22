@@ -22,5 +22,6 @@ public class Principal {
         	System.out.println("¡Ups, perdiste...");
         	System.out.println("El número secreto era: 1234");
         }
+        System.out.println("¡Gracias por jugar!");
     }
 }
