@@ -1,4 +1,4 @@
-// commit 2
+// commit 3
 
 public class Ejercicio2 {
 
@@ -22,6 +22,7 @@ public class Ejercicio2 {
 		catch (NumberFormatException e) {
 			valor += Integer.parseInt("42");
 			System.out.println("Valor al final del catch : " + valor);
+			throw e;
 		}
 		finally {
 			valor ++;
