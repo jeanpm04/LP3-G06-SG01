@@ -1,10 +1,10 @@
-// commit 1
+// commit 2
 
 public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		try {
-			System.out.println(metodo("42"));
+			System.out.println(metodo("w"));
 		}
 		catch (Exception e) {
 			System.out.println("Excepcion en metodo()");
