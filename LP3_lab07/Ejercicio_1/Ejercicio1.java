@@ -1,4 +1,4 @@
-// commit 1
+// commit 2
 public class Ejercicio1 {
 
 	
@@ -14,7 +14,7 @@ public class Ejercicio1 {
 			else
 				throw new Exception("El indice " + j + " no existe en el vector");
 		}
-		catch (RuntimeException exc) {
+		catch (Exception exc) {
 			throw exc;
 			
 		}
